@@ -1,49 +1,53 @@
-.header__header{
+.header__header {
     display: flex;
     position: relative;
     margin: 20px 30px;
 }
-.card__ttl{
-    color:darkblue;
+
+.card__ttl {
+    color: darkblue;
     font-size: 30px;
 }
-.nav__link{
+
+.nav__link {
     display: flex;
     position: absolute;
     top: 20%;
     right: 0%;
     list-style: none;
-    
+
 }
-li{
+
+li {
     margin-left: 3em;
 }
-a{
+
+a {
     text-decoration: none;
     color: darkblue;
 }
-.main{
-    position: relative
-}
-.firstview{
+
+.firstview {
     position: absolute;
-    top:100px;
+    top: 15%;
     right: 0;
-    width:50%;
+    width: 50%;
+    height: 50%;
     z-index: 10;
 }
-h2{
-    position: absolute;
-    top: 340px;
-    left: 0%;
-    font-size: 80px;
-    font-weight: lighter;
 
-}
-.color{
+h2 {
     position: absolute;
-    top: 440px;
+    top: 44%;
+    left: 0%;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.color {
+    position: absolute;
+    top: 55%;
     background-color: darkblue;
-    width:75%;
-    height:200px;
+    width: 75%;
+    height: 25%;
 }
